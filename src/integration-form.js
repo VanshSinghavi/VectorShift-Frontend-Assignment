@@ -6,11 +6,15 @@ import {
 } from '@mui/material';
 import { AirtableIntegration } from './integrations/airtable';
 import { NotionIntegration } from './integrations/notion';
+import { HubSpotIntegration } from './integrations/hubspot';
+import { SlackIntegration } from './integrations/slack';
 import { DataForm } from './data-form';
 
 const integrationMapping = {
     'Notion': NotionIntegration,
     'Airtable': AirtableIntegration,
+    'HubSpot': HubSpotIntegration,
+    'Slack': SlackIntegration,
 };
 
 export const IntegrationForm = () => {

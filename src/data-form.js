@@ -9,6 +9,8 @@ import axios from 'axios';
 const endpointMapping = {
     'Notion': 'notion',
     'Airtable': 'airtable',
+    'HubSpot': 'hubspot',
+    'Slack': 'slack',
 };
 
 export const DataForm = ({ integrationType, credentials }) => {
